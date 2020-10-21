@@ -5,6 +5,8 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
+ * 自定义类加载器，加在一个经过x=（255-x）后的字节码文件
+ * 期待输出:"Hello, classLoader!"
  * @author FangDong
  * @date 2020-10-21
  */
